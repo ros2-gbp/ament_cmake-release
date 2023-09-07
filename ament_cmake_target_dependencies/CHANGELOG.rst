@@ -2,6 +2,9 @@
 Changelog for package ament_cmake_target_dependencies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.3.0 (2023-09-07)
+------------------
+
 2.2.2 (2023-08-21)
 ------------------
 * Fix `ament_target_dependencies` (`#452 <https://github.com/ament/ament_cmake/issues/452>`_)
