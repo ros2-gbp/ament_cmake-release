@@ -2,21 +2,54 @@
 Changelog for package ament_cmake_export_targets
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.3.6 (2023-11-13)
+2.3.2 (2023-12-26)
 ------------------
 
-1.3.5 (2023-06-22)
+2.3.1 (2023-11-06)
 ------------------
 
-1.3.4 (2023-04-25)
+2.3.0 (2023-09-07)
 ------------------
 
-1.3.3 (2022-11-07)
+2.2.2 (2023-08-21)
 ------------------
-* Support new target export template introduced with CMake 3.24 (`#395 <https://github.com/ament/ament_cmake/issues/395>`_) (`#397 <https://github.com/ament/ament_cmake/issues/397>`_)
-* Contributors: mergify[bot]
 
-1.3.2 (2022-05-17)
+2.2.1 (2023-06-21)
+------------------
+
+2.2.0 (2023-06-07)
+------------------
+
+2.1.0 (2023-04-26)
+------------------
+
+2.0.2 (2023-04-12)
+------------------
+
+2.0.1 (2023-04-11)
+------------------
+
+2.0.0 (2023-04-11)
+------------------
+
+1.5.3 (2023-02-13)
+------------------
+* [rolling] Update maintainers - 2022-11-07 (`#411 <https://github.com/ament/ament_cmake/issues/411>`_)
+  * Update maintainers to Michael Jeronimo
+* Contributors: Audrow Nash
+
+1.5.2 (2022-11-02)
+------------------
+
+1.5.1 (2022-09-13)
+------------------
+* Support new target export template introduced with CMake 3.24 (`#395 <https://github.com/ament/ament_cmake/issues/395>`_)
+* Contributors: Timo Röhling
+
+1.5.0 (2022-07-11)
+------------------
+
+1.4.0 (2022-04-29)
 ------------------
 
 1.3.1 (2022-03-28)
