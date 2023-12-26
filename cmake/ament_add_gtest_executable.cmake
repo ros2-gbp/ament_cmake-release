@@ -18,7 +18,7 @@
 # Call add_executable(target ARGN) and link it against the gtest libraries.
 # It does not register the executable as a test.
 #
-# If gtest is not available the specified target is not being created and
+# If gtest is not available the specified target will not being created and
 # therefore the target existence should be checked before being used.
 #
 # :param target: the target name which will also be used as the test name
