@@ -2,58 +2,28 @@
 Changelog for package ament_cmake_auto
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.3.2 (2023-12-26)
+1.3.7 (2024-01-24)
+------------------
+* Add ament_auto_add_gmock to ament_cmake_auto (`#482 <https://github.com/ament/ament_cmake/issues/482>`_) (`#493 <https://github.com/ament/ament_cmake/issues/493>`_)
+* Contributors: mergify[bot]
+
+1.3.6 (2023-11-13)
 ------------------
 
-2.3.1 (2023-11-06)
-------------------
-* Add ament_auto_add_gmock to ament_cmake_auto (`#482 <https://github.com/ament/ament_cmake/issues/482>`_)
-* Contributors: Jordan Palacios
-
-2.3.0 (2023-09-07)
+1.3.5 (2023-06-22)
 ------------------
 
-2.2.2 (2023-08-21)
+1.3.4 (2023-04-25)
 ------------------
+* Fix ament_auto_add_gtest's parameter passing (backport `#421 <https://github.com/ament/ament_cmake/issues/421>`_) (`#424 <https://github.com/ament/ament_cmake/issues/424>`_)
+* Contributors: mergify[bot]
 
-2.2.1 (2023-06-21)
+1.3.3 (2022-11-07)
 ------------------
+* Rolling: ament_cmake_auto should include dependencies as SYSTEM (`#385 <https://github.com/ament/ament_cmake/issues/385>`_) (`#404 <https://github.com/ament/ament_cmake/issues/404>`_)
+* Contributors: mergify[bot]
 
-2.2.0 (2023-06-07)
-------------------
-
-2.1.0 (2023-04-26)
-------------------
-
-2.0.2 (2023-04-12)
-------------------
-
-2.0.1 (2023-04-11)
-------------------
-
-2.0.0 (2023-04-11)
-------------------
-* Support INTERFACE on ament_auto_add_library (`#420 <https://github.com/ament/ament_cmake/issues/420>`_)
-* Contributors: Rin Iwai
-
-1.5.3 (2023-02-13)
-------------------
-* Fix ament_auto_add_gtest's parameter passing (`#421 <https://github.com/ament/ament_cmake/issues/421>`_)
-* [rolling] Update maintainers - 2022-11-07 (`#411 <https://github.com/ament/ament_cmake/issues/411>`_)
-* Contributors: Audrow Nash, Christopher Wecht
-
-1.5.2 (2022-11-02)
-------------------
-* Rolling: ament_cmake_auto should include dependencies as SYSTEM (`#385 <https://github.com/ament/ament_cmake/issues/385>`_)
-* Contributors: Joshua Whitley
-
-1.5.1 (2022-09-13)
-------------------
-
-1.5.0 (2022-07-11)
-------------------
-
-1.4.0 (2022-04-29)
+1.3.2 (2022-05-17)
 ------------------
 
 1.3.1 (2022-03-28)
