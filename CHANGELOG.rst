@@ -2,6 +2,14 @@
 Changelog for package ament_cmake_core
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.4 (2024-02-07)
+------------------
+* Fix CMake error when entire ament projects are added via add_subdirectory (`#487 <https://github.com/ament/ament_cmake/issues/487>`_)
+* Contributors: Silvio Traversaro
+
+2.0.3 (2023-06-22)
+------------------
+
 2.0.2 (2023-04-12)
 ------------------
 
