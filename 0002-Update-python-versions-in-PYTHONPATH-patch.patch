@@ -1,4 +1,4 @@
-From da6673c4f3a83c6cb51ef2dbfa006ebdb54f026e Mon Sep 17 00:00:00 2001
+From ae1bdf21b14ab4cc85bfe1c20ae1e4e74c66eeef Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Steven!=20Ragnar=C3=B6k?= <steven@nuclearsandwich.com>
 Date: Mon, 21 Mar 2022 20:38:10 -0700
 Subject: [PATCH 2/2] Update python versions in PYTHONPATH patch.
@@ -8,7 +8,7 @@ Subject: [PATCH 2/2] Update python versions in PYTHONPATH patch.
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/debian/rules.em b/debian/rules.em
-index 5094c81cb6fa..4373e9a30736 100755
+index 5094c81cb..4373e9a30 100755
 --- a/debian/rules.em
 +++ b/debian/rules.em
 @@ -24,7 +24,7 @@ endif
@@ -21,5 +21,5 @@ index 5094c81cb6fa..4373e9a30736 100755
  %:
  	dh $@@ -v --buildsystem=cmake --builddirectory=.obj-$(DEB_HOST_GNU_TYPE)
 -- 
-2.41.0
+2.34.1
 
