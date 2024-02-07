@@ -2,6 +2,9 @@
 Changelog for package ament_cmake_vendor_package
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.4 (2024-02-07)
+------------------
+
 2.0.3 (2023-06-22)
 ------------------
 * Switch to CMake 'bracket arguments' (`#465 <https://github.com/ament/ament_cmake/issues/465>`_)
