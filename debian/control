@@ -1,0 +1,12 @@
+Source: ros-rolling-ament-cmake
+Section: misc
+Priority: optional
+Maintainer: Michael Jeronimo <michael.jeronimo@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake, ament-cmake-core, cmake, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-ament-cmake
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ament-cmake, ament-cmake-core, ament-cmake-python, cmake, python3-ament-cmake-test, ros-rolling-ament-cmake-export-definitions, ros-rolling-ament-cmake-export-include-directories, ros-rolling-ament-cmake-export-interfaces, ros-rolling-ament-cmake-export-libraries, ros-rolling-ament-cmake-export-link-flags, ros-rolling-ament-cmake-libraries, ros-rolling-ament-cmake-target-dependencies, ros-rolling-ros-workspace
+Description: The entry point package for the ament buildsystem in CMake.
