@@ -2,6 +2,11 @@
 Changelog for package ament_cmake_export_include_directories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.4.0 (2024-03-28)
+------------------
+* Update maintainer list in package.xml files (`#503 <https://github.com/ament/ament_cmake/issues/503>`_)
+* Contributors: Michael Jeronimo
+
 2.3.2 (2023-12-26)
 ------------------
 
