@@ -2,6 +2,9 @@
 Changelog for package ament_cmake_core
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.5.0 (2024-04-16)
+------------------
+
 2.4.0 (2024-03-28)
 ------------------
 * Set hints to find the python version we actually want. (`#508 <https://github.com/ament/ament_cmake/issues/508>`_)
