@@ -1,1 +1,1 @@
-{"base": "56a0c432f", "parent": "debian/rolling/ament_cmake_vendor_package", "previous": "295956f42", "trim": "", "trimbase": ""}
+{"base": "a71666c6c", "parent": "debian/jazzy/ament_cmake_vendor_package", "previous": "7def13138", "trim": "", "trimbase": ""}
