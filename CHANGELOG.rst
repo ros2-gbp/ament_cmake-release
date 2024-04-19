@@ -2,6 +2,11 @@
 Changelog for package ament_cmake_core
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.5 (2024-04-19)
+------------------
+* Require CMake 3.12 due to introduction of FindPython3 (`#515 <https://github.com/ament/ament_cmake/issues/515>`_)
+* Contributors: Ryan
+
 2.0.4 (2024-02-07)
 ------------------
 * Fix CMake error when entire ament projects are added via add_subdirectory (`#487 <https://github.com/ament/ament_cmake/issues/487>`_)
