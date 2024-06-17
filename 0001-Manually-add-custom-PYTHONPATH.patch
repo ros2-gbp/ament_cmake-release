@@ -1,4 +1,4 @@
-From 9ea43e0b9e03f2e485e6f614523e3dca5514460d Mon Sep 17 00:00:00 2001
+From 41c5cddc2aeef950c595adb9e3a1225372fbf810 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Steven!=20Ragnar=C3=B6k?= <steven@nuclearsandwich.com>
 Date: Mon, 8 Apr 2019 15:43:06 -0700
 Subject: [PATCH] Manually add custom PYTHONPATH
@@ -8,7 +8,7 @@ Subject: [PATCH] Manually add custom PYTHONPATH
  1 file changed, 3 insertions(+)
 
 diff --git a/debian/rules.em b/debian/rules.em
-index 2ab7b14af..c99202526 100755
+index a856369d1..cacc1d4c5 100755
 --- a/debian/rules.em
 +++ b/debian/rules.em
 @@ -23,6 +23,9 @@ endif
