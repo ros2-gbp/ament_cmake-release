@@ -2,15 +2,7 @@
 Changelog for package ament_cmake_pytest
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.7.0 (2024-06-25)
-------------------
-* Don't write Python bytecode when invoking pytest (`#533 <https://github.com/ament/ament_cmake/issues/533>`_)
-* Contributors: Scott K Logan
-
-2.6.1 (2024-06-17)
-------------------
-
-2.6.0 (2024-04-26)
+2.5.1 (2024-06-27)
 ------------------
 
 2.5.0 (2024-04-16)
