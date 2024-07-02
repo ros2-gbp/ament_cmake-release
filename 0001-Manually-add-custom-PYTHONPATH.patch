@@ -1,4 +1,4 @@
-From 4db7c879b12918911dcee0ea5c51ddd010cf4b99 Mon Sep 17 00:00:00 2001
+From e6fc35d19c8b62b1f20282046a9389b3b8bcf650 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Steven!=20Ragnar=C3=B6k?= <steven@nuclearsandwich.com>
 Date: Mon, 8 Apr 2019 15:43:06 -0700
 Subject: [PATCH] Manually add custom PYTHONPATH
