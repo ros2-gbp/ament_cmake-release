@@ -28,7 +28,7 @@ if(NOT _AMENT_CMAKE_EXPORT_TARGETS STREQUAL "")
     install(
       EXPORT "${_target}"
       DESTINATION share/${PROJECT_NAME}/cmake
-      NAMESPACE "${_AMENT_CMAKE_EXPORT_TARGETS_NAMESPACE}"
+      NAMESPACE "${PROJECT_NAME}::"
       FILE "${_target}Export.cmake"
     )
   endforeach()

@@ -2,47 +2,22 @@
 Changelog for package ament_cmake_core
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.5.2 (2024-07-02)
+2.0.6 (2024-07-11)
 ------------------
-* More specific prefix in some cmake_parse_argument calls (`#523 <https://github.com/ament/ament_cmake/issues/523>`_) (`#539 <https://github.com/ament/ament_cmake/issues/539>`_)
-  (cherry picked from commit fdbf4574d7ccc67c29d63f906ddbd88017eb9ecc)
-  Co-authored-by: Kevin Egger <eggerk@users.noreply.github.com>
-* Contributors: mergify[bot]
+* More specific prefix in some cmake_parse_argument calls (`#537 <https://github.com/ament/ament_cmake/issues/537>`_)
+* Contributors: Kevin Egger
 
-2.5.1 (2024-06-27)
+2.0.5 (2024-04-19)
 ------------------
+* Require CMake 3.12 due to introduction of FindPython3 (`#515 <https://github.com/ament/ament_cmake/issues/515>`_)
+* Contributors: Ryan
 
-2.5.0 (2024-04-16)
+2.0.4 (2024-02-07)
 ------------------
-
-2.4.0 (2024-03-28)
-------------------
-* Set hints to find the python version we actually want. (`#508 <https://github.com/ament/ament_cmake/issues/508>`_)
-* Update maintainer list in package.xml files (`#503 <https://github.com/ament/ament_cmake/issues/503>`_)
-* Contributors: Chris Lalancette, Michael Jeronimo
-
-2.3.2 (2023-12-26)
-------------------
-
-2.3.1 (2023-11-06)
-------------------
-* Use CMAKE_CURRENT_BINARY_DIR instead of CMAKE_BINARY_DIR  in ament_generate_environment (`#485 <https://github.com/ament/ament_cmake/issues/485>`_)
-* Fix CMake error when entire ament projects are added via add_subdirectory (`#484 <https://github.com/ament/ament_cmake/issues/484>`_)
+* Fix CMake error when entire ament projects are added via add_subdirectory (`#487 <https://github.com/ament/ament_cmake/issues/487>`_)
 * Contributors: Silvio Traversaro
 
-2.3.0 (2023-09-07)
-------------------
-
-2.2.2 (2023-08-21)
-------------------
-
-2.2.1 (2023-06-21)
-------------------
-
-2.2.0 (2023-06-07)
-------------------
-
-2.1.0 (2023-04-26)
+2.0.3 (2023-06-22)
 ------------------
 
 2.0.2 (2023-04-12)
