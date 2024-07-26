@@ -13,19 +13,18 @@
 # limitations under the License.
 
 #
-# Unpack a list of libraries with optional build configuration keyword prefixes.
+# Find nosetests.
 #
-# Libraries prefixed with a keyword are split into the keyword and the library.
+# Set the variable ``NOSETESTS`` to the absolute path of the
+# executable if found.
 #
-# :param VAR: the output variable name
-# :type VAR: string
-# :param ARGN: a list of libraries
-# :type ARGN: list of strings
+# @public
 #
-macro(ament_libraries_unpack_build_configuration VAR)
-  set(${VAR} "")
-  foreach(_lib ${ARGN})
-    string(REGEX REPLACE "^(debug|optimized|general)${AMENT_BUILD_CONFIGURATION_KEYWORD_SEPARATOR}(.+)$" "\\1;\\2" _lib "${_lib}")
-    list(APPEND ${VAR} "${_lib}")
-  endforeach()
+macro(ament_find_nose)
+  set(_ARGN "${ARGN}")
+  if(_ARGN)
+    message(FATAL_ERROR
+      "ament_find_nose() called with unused arguments: ${_ARGN}")
+  endif()
+  _ament_cmake_nose_find_nosetests()
 endmacro()
