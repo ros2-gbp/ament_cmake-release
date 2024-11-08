@@ -2,6 +2,9 @@
 Changelog for package ament_cmake_gen_version_h
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.7 (2024-11-09)
+------------------
+
 2.0.6 (2024-07-11)
 ------------------
 * Add ALL target for ament_generate_version_header target. (`#528 <https://github.com/ament/ament_cmake/issues/528>`_)
