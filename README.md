@@ -1,3 +1,48 @@
+## ament_cmake (rolling) - 2.7.2-1
+
+The packages in the `ament_cmake` repository were released into the `rolling` distro by running `/home/cottsay/infra_ws/install/bloom/bin/bloom-release -r rolling ament_cmake` on `Tue, 19 Nov 2024 19:06:18 -0000`
+
+These packages were released:
+- `ament_cmake`
+- `ament_cmake_auto`
+- `ament_cmake_core`
+- `ament_cmake_export_definitions`
+- `ament_cmake_export_dependencies`
+- `ament_cmake_export_include_directories`
+- `ament_cmake_export_interfaces`
+- `ament_cmake_export_libraries`
+- `ament_cmake_export_link_flags`
+- `ament_cmake_export_targets`
+- `ament_cmake_gen_version_h`
+- `ament_cmake_gmock`
+- `ament_cmake_google_benchmark`
+- `ament_cmake_gtest`
+- `ament_cmake_include_directories`
+- `ament_cmake_libraries`
+- `ament_cmake_pytest`
+- `ament_cmake_python`
+- `ament_cmake_target_dependencies`
+- `ament_cmake_test`
+- `ament_cmake_vendor_package`
+- `ament_cmake_version`
+
+Version of package(s) in repository `ament_cmake`:
+
+- upstream repository: https://github.com/ament/ament_cmake.git
+- release repository: https://github.com/ros2-gbp/ament_cmake-release.git
+- rosdistro version: `2.7.1-1`
+- old version: `2.7.1-1`
+- new version: `2.7.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.0`
+- vcstools version: `0.1.42`
+
+
 ## ament_cmake (iron) - 2.0.7-1
 
 The packages in the `ament_cmake` repository were released into the `iron` distro by running `/usr/bin/bloom-release --rosdistro iron ament_cmake` on `Fri, 08 Nov 2024 20:06:24 -0000`
