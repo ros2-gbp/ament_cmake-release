@@ -1,4 +1,4 @@
-From 2549c5575f3e3d81c1330c8154a6feb8b48a3f01 Mon Sep 17 00:00:00 2001
+From 305268746542e8d1b199b3fb92c3a84f974c8b84 Mon Sep 17 00:00:00 2001
 From: Scott K Logan <logans@cottsay.net>
 Date: Tue, 19 Jan 2021 18:32:45 -0800
 Subject: [PATCH] Bootstrap PYTHONPATH
@@ -9,7 +9,7 @@ Signed-off-by: Scott K Logan <logans@cottsay.net>
  1 file changed, 9 insertions(+)
 
 diff --git a/rpm/template.spec.em b/rpm/template.spec.em
-index bebb96b6a..b85c9f3bd 100644
+index bebb96b6a6a5..b85c9f3bd8a1 100644
 --- a/rpm/template.spec.em
 +++ b/rpm/template.spec.em
 @@ -34,6 +34,9 @@ Source0:        %{name}-%{version}.tar.gz
@@ -43,5 +43,5 @@ index bebb96b6a..b85c9f3bd 100644
  TEST_TARGET=$(%__make -qp -C .obj-%{_target_platform} | sed "s/^\(test\|check\):.*/\\1/;t f;d;:f;q0")
  if [ -n "$TEST_TARGET" ]; then
 -- 
-2.43.0
+2.47.0
 
