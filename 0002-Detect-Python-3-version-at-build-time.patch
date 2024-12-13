@@ -1,4 +1,4 @@
-From 5a934459183d6d29cf94b1cca0936b420db27928 Mon Sep 17 00:00:00 2001
+From 7d68eb568bed34a210a07951076667db44c65826 Mon Sep 17 00:00:00 2001
 From: Scott K Logan <logans@cottsay.net>
 Date: Thu, 12 Dec 2024 14:29:24 -0600
 Subject: [PATCH 2/2] Detect Python 3 version at build time
@@ -9,7 +9,7 @@ Co-authored-by: Jose Luis Rivero <jrivero@osrfoundation.org>
  1 file changed, 2 insertions(+), 1 deletion(-)
 
 diff --git a/debian/rules.em b/debian/rules.em
-index c9920252624b..8b88e2fe7ed9 100755
+index cacc1d4c5593..3ba9ca92d775 100755
 --- a/debian/rules.em
 +++ b/debian/rules.em
 @@ -24,7 +24,8 @@ endif
