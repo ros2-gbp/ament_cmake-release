@@ -1,4 +1,4 @@
-From 9b21add8c3d46ad8fe45b5aca494066da03d0ac3 Mon Sep 17 00:00:00 2001
+From c275a4ed4ef44880851dded015503d52dac383eb Mon Sep 17 00:00:00 2001
 From: Scott K Logan <logans@cottsay.net>
 Date: Tue, 19 Jan 2021 18:32:45 -0800
 Subject: [PATCH] Bootstrap PYTHONPATH
@@ -43,5 +43,5 @@ index bebb96b6a6a5..b85c9f3bd8a1 100644
  TEST_TARGET=$(%__make -qp -C .obj-%{_target_platform} | sed "s/^\(test\|check\):.*/\\1/;t f;d;:f;q0")
  if [ -n "$TEST_TARGET" ]; then
 -- 
-2.47.0
+2.49.0
 
