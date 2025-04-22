@@ -1,0 +1,12 @@
+Source: ros-kilted-ament-cmake
+Section: misc
+Priority: optional
+Maintainer: Chris Lalancette <clalancette@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, ros-kilted-ament-cmake-core, ros-kilted-ament-cmake-export-dependencies, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-ament-cmake
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, cmake, ros-kilted-ament-cmake-core, ros-kilted-ament-cmake-export-definitions, ros-kilted-ament-cmake-export-dependencies, ros-kilted-ament-cmake-export-include-directories, ros-kilted-ament-cmake-export-interfaces, ros-kilted-ament-cmake-export-libraries, ros-kilted-ament-cmake-export-link-flags, ros-kilted-ament-cmake-export-targets, ros-kilted-ament-cmake-gen-version-h, ros-kilted-ament-cmake-libraries, ros-kilted-ament-cmake-python, ros-kilted-ament-cmake-target-dependencies, ros-kilted-ament-cmake-test, ros-kilted-ament-cmake-version, ros-kilted-ros-workspace
+Description: The entry point package for the ament buildsystem in CMake.
