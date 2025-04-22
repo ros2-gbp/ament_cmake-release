@@ -1,4 +1,4 @@
-From c275a4ed4ef44880851dded015503d52dac383eb Mon Sep 17 00:00:00 2001
+From 60aa9e50d35f228eca33cfd78098c1d22bba82fb Mon Sep 17 00:00:00 2001
 From: Scott K Logan <logans@cottsay.net>
 Date: Tue, 19 Jan 2021 18:32:45 -0800
 Subject: [PATCH] Bootstrap PYTHONPATH
@@ -9,10 +9,10 @@ Signed-off-by: Scott K Logan <logans@cottsay.net>
  1 file changed, 9 insertions(+)
 
 diff --git a/rpm/template.spec.em b/rpm/template.spec.em
-index bebb96b6a6a5..b85c9f3bd8a1 100644
+index 5d2afb373a9e..d51f71ea2edd 100644
 --- a/rpm/template.spec.em
 +++ b/rpm/template.spec.em
-@@ -34,6 +34,9 @@ Source0:        %{name}-%{version}.tar.gz
+@@ -36,6 +36,9 @@ Source0:        %{name}-%{version}.tar.gz
  %autosetup -p1
  
  %build
@@ -22,7 +22,7 @@ index bebb96b6a6a5..b85c9f3bd8a1 100644
  # In case we're installing to a non-standard location, look for a setup.sh
  # in the install tree and source it.  It will set things like
  # CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
-@@ -57,6 +60,9 @@ mkdir -p .obj-%{_target_platform} && cd .obj-%{_target_platform}
+@@ -59,6 +62,9 @@ mkdir -p .obj-%{_target_platform} && cd .obj-%{_target_platform}
  %make_build
  
  %install
@@ -32,7 +32,7 @@ index bebb96b6a6a5..b85c9f3bd8a1 100644
  # In case we're installing to a non-standard location, look for a setup.sh
  # in the install tree and source it.  It will set things like
  # CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
-@@ -65,6 +71,9 @@ if [ -f "@(InstallationPrefix)/setup.sh" ]; then . "@(InstallationPrefix)/setup.
+@@ -67,6 +73,9 @@ if [ -f "@(InstallationPrefix)/setup.sh" ]; then . "@(InstallationPrefix)/setup.
  
  %if 0%{?with_tests}
  %check
