@@ -1,0 +1,12 @@
+Source: ros-kilted-ament-cmake-export-include-directories
+Section: misc
+Priority: optional
+Maintainer: Chris Lalancette <clalancette@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake-core, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-ament-cmake-export-include-directories
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-ament-cmake-core, ros-kilted-ros-workspace
+Description: The ability to export include directories to downstream packages in the ament buildsystem in CMake.
