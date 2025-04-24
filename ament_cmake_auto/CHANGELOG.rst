@@ -2,27 +2,30 @@
 Changelog for package ament_cmake_auto
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.5.4 (2025-04-24)
-------------------
-* Add USE_SCOPED_HEADER_INSTALL_DIR option to ament_auto_package (backport `#540 <https://github.com/ament/ament_cmake/issues/540>`_) (`#578 <https://github.com/ament/ament_cmake/issues/578>`_)
-  * Add USE_SCOPED_HEADER_INSTALL_DIR option to ament_auto_package
-  * Add warning message to ament_auto_package related to USE_SCOPED_HEADER_INSTALL_DIR option
-  * Add missing endif to ament_auto_package
-  * Use no mode instead of WARNING in message in ament_auto_package.cmake
-  ---------
-* Contributors: Kotaro Yoshimoto
-
-2.5.3 (2024-12-18)
+2.8.0 (2025-04-24)
 ------------------
 
-2.5.2 (2024-07-02)
+2.7.3 (2025-04-17)
 ------------------
-* More specific prefix in some cmake_parse_argument calls (`#523 <https://github.com/ament/ament_cmake/issues/523>`_) (`#539 <https://github.com/ament/ament_cmake/issues/539>`_)
-  (cherry picked from commit fdbf4574d7ccc67c29d63f906ddbd88017eb9ecc)
-  Co-authored-by: Kevin Egger <eggerk@users.noreply.github.com>
-* Contributors: mergify[bot]
+* Fix headers destination installed by ament_auto_package (`#540 <https://github.com/ament/ament_cmake/issues/540>`_)
+* Add ament_auto_depend_on_packages to replace ament_target_dependencies (`#571 <https://github.com/ament/ament_cmake/issues/571>`_)
+* Contributors: Kotaro Yoshimoto, Shane Loretz
 
-2.5.1 (2024-06-27)
+2.7.2 (2024-11-19)
+------------------
+
+2.7.1 (2024-10-03)
+------------------
+
+2.7.0 (2024-06-25)
+------------------
+
+2.6.1 (2024-06-17)
+------------------
+* More specific prefix in some cmake_parse_argument calls (`#523 <https://github.com/ament/ament_cmake/issues/523>`_)
+* Contributors: Kevin Egger
+
+2.6.0 (2024-04-26)
 ------------------
 
 2.5.0 (2024-04-16)

@@ -2,23 +2,27 @@
 Changelog for package ament_cmake_vendor_package
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.5.4 (2025-04-24)
+2.8.0 (2025-04-24)
 ------------------
 
-2.5.3 (2024-12-18)
-------------------
-* Add explicit git dependency from ament_cmake_vendor_package (`#555 <https://github.com/ament/ament_cmake/issues/555>`_)
-  The vcstool package can be used with multiple package managers, not just
-  git. Best to be explicit about which of those package managers we want
-  to use.
-  (cherry picked from commit 032dc51e558cc046b2c6e5af7a9d38bdc30ba191)
-  Co-authored-by: Scott K Logan <logans@cottsay.net>
-* Contributors: mergify[bot]
-
-2.5.2 (2024-07-02)
+2.7.3 (2025-04-17)
 ------------------
 
-2.5.1 (2024-06-27)
+2.7.2 (2024-11-19)
+------------------
+* Add explicit git dependency from ament_cmake_vendor_package (`#554 <https://github.com/ament/ament_cmake/issues/554>`_)
+* Contributors: Scott K Logan
+
+2.7.1 (2024-10-03)
+------------------
+
+2.7.0 (2024-06-25)
+------------------
+
+2.6.1 (2024-06-17)
+------------------
+
+2.6.0 (2024-04-26)
 ------------------
 
 2.5.0 (2024-04-16)

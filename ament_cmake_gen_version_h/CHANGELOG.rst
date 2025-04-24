@@ -2,24 +2,28 @@
 Changelog for package ament_cmake_gen_version_h
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.5.4 (2025-04-24)
+2.8.0 (2025-04-24)
 ------------------
 
-2.5.3 (2024-12-18)
+2.7.3 (2025-04-17)
 ------------------
 
-2.5.2 (2024-07-02)
+2.7.2 (2024-11-19)
 ------------------
 
-2.5.1 (2024-06-27)
+2.7.1 (2024-10-03)
 ------------------
-* Add ALL target for ament_generate_version_header target. (`#526 <https://github.com/ament/ament_cmake/issues/526>`_) (`#529 <https://github.com/ament/ament_cmake/issues/529>`_)
-  This is necessary when using ament_generate_version_header()
-  with a target that is an INTERFACE library, so that it
-  actually gets built.
-  (cherry picked from commit 1388e09c5232f3ab3b7db997ded9beebe613dd8c)
-  Co-authored-by: Chris Lalancette <clalancette@gmail.com>
-* Contributors: mergify[bot]
+
+2.7.0 (2024-06-25)
+------------------
+
+2.6.1 (2024-06-17)
+------------------
+* Add ALL target for ament_generate_version_header target. (`#526 <https://github.com/ament/ament_cmake/issues/526>`_)
+* Contributors: Chris Lalancette
+
+2.6.0 (2024-04-26)
+------------------
 
 2.5.0 (2024-04-16)
 ------------------
