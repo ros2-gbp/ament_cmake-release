@@ -2,30 +2,20 @@
 Changelog for package ament_cmake_core
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.7.3 (2025-04-17)
-------------------
-* Create destination directory during symlink install (`#569 <https://github.com/ament/ament_cmake/issues/569>`_)
-* Contributors: Ezra Brooks
-
-2.7.2 (2024-11-19)
-------------------
-* Support generator expressions when symlinking install(FILES) (`#560 <https://github.com/ament/ament_cmake/issues/560>`_)
-* Always symlink TARGET\_{LINKER,SONAME}_FILE on libraries (`#535 <https://github.com/ament/ament_cmake/issues/535>`_)
-* Fix symlink install of versioned libs on macOS (`#558 <https://github.com/ament/ament_cmake/issues/558>`_)
-* Contributors: Scott K Logan
-
-2.7.1 (2024-10-03)
+2.5.4 (2025-04-24)
 ------------------
 
-2.7.0 (2024-06-25)
+2.5.3 (2024-12-18)
 ------------------
 
-2.6.1 (2024-06-17)
+2.5.2 (2024-07-02)
 ------------------
-* More specific prefix in some cmake_parse_argument calls (`#523 <https://github.com/ament/ament_cmake/issues/523>`_)
-* Contributors: Kevin Egger
+* More specific prefix in some cmake_parse_argument calls (`#523 <https://github.com/ament/ament_cmake/issues/523>`_) (`#539 <https://github.com/ament/ament_cmake/issues/539>`_)
+  (cherry picked from commit fdbf4574d7ccc67c29d63f906ddbd88017eb9ecc)
+  Co-authored-by: Kevin Egger <eggerk@users.noreply.github.com>
+* Contributors: mergify[bot]
 
-2.6.0 (2024-04-26)
+2.5.1 (2024-06-27)
 ------------------
 
 2.5.0 (2024-04-16)
