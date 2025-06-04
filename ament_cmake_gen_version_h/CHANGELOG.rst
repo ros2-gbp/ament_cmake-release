@@ -2,6 +2,9 @@
 Changelog for package ament_cmake_gen_version_h
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.8.2 (2025-06-04)
+------------------
+
 2.8.1 (2025-05-20)
 ------------------
 * Removed deprecated function ament_cmake_gen_version_h (`#582 <https://github.com/ament/ament_cmake/issues/582>`_)
