@@ -1,4 +1,4 @@
-From 6e7d0c5f78669ec33fd724791da83e4d5bf94932 Mon Sep 17 00:00:00 2001
+From f45688bcf8955be8295bf9e85a81b15b58b75118 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Steven!=20Ragnar=C3=B6k?=
  <nuclearsandwich@users.noreply.github.com>
 Date: Thu, 10 Feb 2022 14:31:35 -0500
@@ -48,5 +48,5 @@ index bebb96b6a..b85c9f3bd 100644
  TEST_TARGET=$(%__make -qp -C .obj-%{_target_platform} | sed "s/^\(test\|check\):.*/\\1/;t f;d;:f;q0")
  if [ -n "$TEST_TARGET" ]; then
 -- 
-2.34.1
+2.43.0
 
