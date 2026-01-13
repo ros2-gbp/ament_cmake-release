@@ -2,28 +2,7 @@
 Changelog for package ament_cmake_target_dependencies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.8.5 (2026-01-13)
-------------------
-* Revert "Revert "Removed deprecated function ament_cmake_target_dependencies (…" (`#614 <https://github.com/ament/ament_cmake/issues/614>`_)
-* Contributors: Alejandro Hernández Cordero
-
-2.8.4 (2025-07-01)
-------------------
-
-2.8.3 (2025-06-19)
-------------------
-
-2.8.2 (2025-06-04)
-------------------
-* Revert "Removed deprecated function ament_cmake_target_dependencies" (`#585 <https://github.com/ament/ament_cmake/issues/585>`_)
-* Contributors: Shane Loretz
-
-2.8.1 (2025-05-20)
-------------------
-* Removed deprecated function ament_cmake_target_dependencies (`#583 <https://github.com/ament/ament_cmake/issues/583>`_)
-* Contributors: Alejandro Hernández Cordero
-
-2.8.0 (2025-04-24)
+2.7.4 (2026-01-13)
 ------------------
 
 2.7.3 (2025-04-17)

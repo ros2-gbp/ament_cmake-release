@@ -2,29 +2,10 @@
 Changelog for package ament_cmake_core
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.8.5 (2026-01-13)
+2.7.4 (2026-01-13)
 ------------------
-* Remove unused AMENT_CMAKE_ENVIRONMENT_GENERATION option (`#354 <https://github.com/ament/ament_cmake/issues/354>`_)
-* Address ament_lint_cmake regressions (`#604 <https://github.com/ament/ament_cmake/issues/604>`_)
-* Respect find_package(QUIET) in chains from ament_cmake_core (`#603 <https://github.com/ament/ament_cmake/issues/603>`_)
-* Contributors: Scott K Logan, Shane Loretz
-
-2.8.4 (2025-07-01)
-------------------
-
-2.8.3 (2025-06-19)
-------------------
-* perf: faster normalize_path implementation using cmake_path (`#586 <https://github.com/ament/ament_cmake/issues/586>`_)
-* Contributors: Nathan Boisard
-
-2.8.2 (2025-06-04)
-------------------
-
-2.8.1 (2025-05-20)
-------------------
-
-2.8.0 (2025-04-24)
-------------------
+* Address ament_lint_cmake regressions (`#604 <https://github.com/ament/ament_cmake/issues/604>`_) (`#606 <https://github.com/ament/ament_cmake/issues/606>`_)
+* Contributors: mergify[bot]
 
 2.7.3 (2025-04-17)
 ------------------
