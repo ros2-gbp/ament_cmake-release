@@ -12,6 +12,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# copied from ament_cmake_core/ament_cmake_core-extras.cmake
-
-include("${ament_cmake_core_DIR}/core/all.cmake" NO_POLICY_SCOPE)
+#
+# Find nosetests.
+#
+# Set the variable ``NOSETESTS`` to the absolute path of the
+# executable if found.
+#
+# @public
+#
+macro(ament_find_nose)
+  set(_ARGN "${ARGN}")
+  if(_ARGN)
+    message(FATAL_ERROR
+      "ament_find_nose() called with unused arguments: ${_ARGN}")
+  endif()
+  _ament_cmake_nose_find_nosetests()
+endmacro()
