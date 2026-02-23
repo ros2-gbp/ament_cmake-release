@@ -1,0 +1,12 @@
+Source: ros-jazzy-ament-cmake-version
+Section: misc
+Priority: optional
+Maintainer: Chris Lalancette <clalancette@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-core, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ament-cmake-version
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ament-cmake-core, ros-jazzy-ros-workspace
+Description: The ability to override the exported package version in the ament buildsystem.
