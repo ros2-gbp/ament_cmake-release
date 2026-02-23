@@ -1,4 +1,4 @@
-From f0922cc684acb996492de789d7e10657fc51232e Mon Sep 17 00:00:00 2001
+From d782f870a76cadaa8fcdb8a9b195f0f2366b40aa Mon Sep 17 00:00:00 2001
 From: Scott K Logan <logans@cottsay.net>
 Date: Tue, 19 Jan 2021 18:32:45 -0800
 Subject: [PATCH] Bootstrap PYTHONPATH
