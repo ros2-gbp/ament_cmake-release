@@ -2,28 +2,13 @@
 Changelog for package ament_cmake_libraries
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.8.6 (2026-02-23)
+2.7.5 (2026-02-23)
 ------------------
 
-2.8.5 (2026-01-13)
+2.7.4 (2026-01-13)
 ------------------
-* Address ament_lint_cmake regressions (`#604 <https://github.com/ament/ament_cmake/issues/604>`_)
-* Contributors: Scott K Logan
-
-2.8.4 (2025-07-01)
-------------------
-
-2.8.3 (2025-06-19)
-------------------
-
-2.8.2 (2025-06-04)
-------------------
-
-2.8.1 (2025-05-20)
-------------------
-
-2.8.0 (2025-04-24)
-------------------
+* Address ament_lint_cmake regressions (`#604 <https://github.com/ament/ament_cmake/issues/604>`_) (`#606 <https://github.com/ament/ament_cmake/issues/606>`_)
+* Contributors: mergify[bot]
 
 2.7.3 (2025-04-17)
 ------------------
