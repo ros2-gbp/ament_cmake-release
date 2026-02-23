@@ -19,7 +19,6 @@
 # If the specified target does not exist the registration is skipped.
 #
 # :param target: the target name which will also be used as the test name
-#   if TEST_NAME is not set
 # :type target: string
 # :param RUNNER: the path to the test runner script (default: see ament_add_test).
 # :type RUNNER: string
@@ -29,8 +28,6 @@
 # :param WORKING_DIRECTORY: the working directory for invoking the
 #   executable in, default defined by ``ament_add_test()``
 # :type WORKING_DIRECTORY: string
-# :param TEST_NAME: the name of the test
-# :type TEST_NAME: string
 # :param SKIP_TEST: if set mark the test as being skipped
 # :type SKIP_TEST: option
 # :param ENV: list of env vars to set; listed as ``VAR=value``
@@ -51,7 +48,7 @@ function(ament_add_gtest_test target)
 
   cmake_parse_arguments(ARG
     "SKIP_TEST"
-    "RUNNER;TIMEOUT;WORKING_DIRECTORY;TEST_NAME"
+    "RUNNER;TIMEOUT;WORKING_DIRECTORY"
     "APPEND_ENV;APPEND_LIBRARY_DIRS;ENV"
     ${ARGN})
   if(ARG_UNPARSED_ARGUMENTS)
@@ -59,14 +56,8 @@ function(ament_add_gtest_test target)
       "ament_add_gtest_test() called with unused arguments: ${ARGN}")
   endif()
 
-  if(ARG_TEST_NAME)
-    set(TEST_NAME "${ARG_TEST_NAME}")
-  else()
-    set(TEST_NAME "${target}")
-  endif()
-
   set(executable "$<TARGET_FILE:${target}>")
-  set(result_file "${AMENT_TEST_RESULTS_DIR}/${PROJECT_NAME}/${TEST_NAME}.gtest.xml")
+  set(result_file "${AMENT_TEST_RESULTS_DIR}/${PROJECT_NAME}/${target}.gtest.xml")
   set(cmd
     "${executable}"
     "--gtest_output=xml:${result_file}")
@@ -93,9 +84,9 @@ function(ament_add_gtest_test target)
   endif()
 
   ament_add_test(
-    "${TEST_NAME}"
+    "${target}"
     COMMAND ${cmd}
-    OUTPUT_FILE "${CMAKE_BINARY_DIR}/ament_cmake_gtest/${TEST_NAME}.txt"
+    OUTPUT_FILE "${CMAKE_BINARY_DIR}/ament_cmake_gtest/${target}.txt"
     RESULT_FILE "${result_file}"
     ${ARG_RUNNER}
     ${ARG_SKIP_TEST}
@@ -106,7 +97,7 @@ function(ament_add_gtest_test target)
     ${ARG_WORKING_DIRECTORY}
   )
   set_tests_properties(
-    "${TEST_NAME}"
+    "${target}"
     PROPERTIES
     REQUIRED_FILES "${executable}"
     LABELS "gtest"
