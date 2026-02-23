@@ -1,4 +1,4 @@
-From 89f6e1e437903fc9490f37b9b7cfe4cb190da164 Mon Sep 17 00:00:00 2001
+From 8894864bb22d27c0900022478554c43817e7b071 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Steven!=20Ragnar=C3=B6k?=
  <nuclearsandwich@users.noreply.github.com>
 Date: Thu, 10 Feb 2022 14:31:35 -0500
@@ -14,10 +14,10 @@ The rosdistro migration tools[1] ought to have preserved these patches however I
  1 file changed, 9 insertions(+)
 
 diff --git a/rpm/template.spec.em b/rpm/template.spec.em
-index bebb96b6a..b85c9f3bd 100644
+index 5d2afb373..d51f71ea2 100644
 --- a/rpm/template.spec.em
 +++ b/rpm/template.spec.em
-@@ -34,6 +34,9 @@ Source0:        %{name}-%{version}.tar.gz
+@@ -36,6 +36,9 @@ Source0:        %{name}-%{version}.tar.gz
  %autosetup -p1
  
  %build
@@ -27,7 +27,7 @@ index bebb96b6a..b85c9f3bd 100644
  # In case we're installing to a non-standard location, look for a setup.sh
  # in the install tree and source it.  It will set things like
  # CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
-@@ -57,6 +60,9 @@ mkdir -p .obj-%{_target_platform} && cd .obj-%{_target_platform}
+@@ -59,6 +62,9 @@ mkdir -p .obj-%{_target_platform} && cd .obj-%{_target_platform}
  %make_build
  
  %install
@@ -37,7 +37,7 @@ index bebb96b6a..b85c9f3bd 100644
  # In case we're installing to a non-standard location, look for a setup.sh
  # in the install tree and source it.  It will set things like
  # CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
-@@ -65,6 +71,9 @@ if [ -f "@(InstallationPrefix)/setup.sh" ]; then . "@(InstallationPrefix)/setup.
+@@ -67,6 +73,9 @@ if [ -f "@(InstallationPrefix)/setup.sh" ]; then . "@(InstallationPrefix)/setup.
  
  %if 0%{?with_tests}
  %check
