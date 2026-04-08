@@ -1,0 +1,8 @@
+ros-rolling-ament-cmake-python-test (2.8.7-1noble) noble; urgency=high
+
+  * feature: allow extending a python package in ament_python_install_package (#587 <https://github.com/ament/ament_cmake//issues/587>)
+  * Contributors: Nadav Elkabets
+
+ -- Nadav Elkabets <elnadav12@gmail.com>  Tue, 07 Apr 2026 22:00:00 -0000
+
+
