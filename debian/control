@@ -1,0 +1,12 @@
+Source: ros-lyrical-ament-cmake
+Section: misc
+Priority: optional
+Maintainer: Chris Lalancette <clalancette@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, ros-lyrical-ament-cmake-core, ros-lyrical-ament-cmake-export-dependencies, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/ament_cmake/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-ament-cmake
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, cmake, ros-lyrical-ament-cmake-core, ros-lyrical-ament-cmake-export-definitions, ros-lyrical-ament-cmake-export-dependencies, ros-lyrical-ament-cmake-export-include-directories, ros-lyrical-ament-cmake-export-libraries, ros-lyrical-ament-cmake-export-link-flags, ros-lyrical-ament-cmake-export-targets, ros-lyrical-ament-cmake-gen-version-h, ros-lyrical-ament-cmake-libraries, ros-lyrical-ament-cmake-python, ros-lyrical-ament-cmake-target-dependencies, ros-lyrical-ament-cmake-test, ros-lyrical-ament-cmake-version, ros-lyrical-ros-workspace
+Description: The entry point package for the ament buildsystem in CMake.
