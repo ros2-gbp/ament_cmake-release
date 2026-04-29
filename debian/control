@@ -1,0 +1,12 @@
+Source: ros-lyrical-ament-cmake-export-dependencies
+Section: misc
+Priority: optional
+Maintainer: Chris Lalancette <clalancette@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-core, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/ament_cmake_export_dependencies/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-ament-cmake-export-dependencies
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ament-cmake-core, ros-lyrical-ament-cmake-libraries, ros-lyrical-ros-workspace
+Description: The ability to export dependencies to downstream packages in the ament buildsystem in CMake.
