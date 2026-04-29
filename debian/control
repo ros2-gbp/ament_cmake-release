@@ -1,0 +1,12 @@
+Source: ros-lyrical-ament-cmake-gen-version-h
+Section: misc
+Priority: optional
+Maintainer: Chris Lalancette <clalancette@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-core, ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-package, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/ament_cmake_gen_version_h/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-ament-cmake-gen-version-h
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ament-cmake-core, ros-lyrical-ros-workspace
+Description: Generate a C header containing the version number of the package
