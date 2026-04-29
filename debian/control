@@ -1,0 +1,12 @@
+Source: ros-lyrical-ament-cmake-version
+Section: misc
+Priority: optional
+Maintainer: Chris Lalancette <clalancette@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-core, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/ament_cmake_version/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-ament-cmake-version
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ament-cmake-core, ros-lyrical-ros-workspace
+Description: The ability to override the exported package version in the ament buildsystem.
