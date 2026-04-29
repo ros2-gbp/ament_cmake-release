@@ -1,0 +1,12 @@
+Source: ros-lyrical-ament-cmake-pytest
+Section: misc
+Priority: optional
+Maintainer: Chris Lalancette <clalancette@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-lyrical-ament-cmake-core, ros-lyrical-ament-cmake-test, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/ament_cmake_pytest/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-ament-cmake-pytest
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-pytest, ros-lyrical-ament-cmake-core, ros-lyrical-ament-cmake-test, ros-lyrical-ros-workspace
+Description: The ability to run Python tests using pytest in the ament buildsystem in CMake.
