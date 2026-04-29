@@ -1,0 +1,12 @@
+Source: ros-lyrical-ament-cmake-gmock
+Section: misc
+Priority: optional
+Maintainer: Chris Lalancette <clalancette@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-core, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/ament_cmake_gmock/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-ament-cmake-gmock
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgmock-dev, ros-lyrical-ament-cmake-gtest, ros-lyrical-ament-cmake-test, ros-lyrical-ros-workspace
+Description: The ability to add Google mock-based tests in the ament buildsystem in CMake.
