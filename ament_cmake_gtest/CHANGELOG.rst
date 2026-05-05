@@ -2,6 +2,9 @@
 Changelog for package ament_cmake_gtest
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.9.0 (2026-05-05)
+------------------
+
 2.8.7 (2026-04-08)
 ------------------
 * Use libgtest-dev and libgmock-dev (`#622 <https://github.com/ament/ament_cmake//issues/622>`_)
