@@ -1,1 +1,1 @@
-{"base": "85d1be2d6bd9", "parent": "debian/rolling/ament_cmake_gmock", "previous": "49f24db0cea3", "trim": "", "trimbase": ""}
+{"base": "cda9dc8e2", "parent": "debian/rolling/ament_cmake_gmock", "previous": "294c95ee1", "trim": "", "trimbase": ""}
