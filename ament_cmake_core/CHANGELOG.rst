@@ -2,7 +2,15 @@
 Changelog for package ament_cmake_core
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.8.8 (2026-07-28)
+2.9.2 (2026-09-03)
+------------------
+
+2.9.1 (2026-07-02)
+------------------
+* Generate links to environment dsv files in environment hooks (`#628 <https://github.com/ament/ament_cmake/issues/628>`_)
+* Contributors: tom7980
+
+2.9.0 (2026-05-05)
 ------------------
 
 2.8.7 (2026-04-08)
