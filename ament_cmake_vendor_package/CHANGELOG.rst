@@ -2,20 +2,10 @@
 Changelog for package ament_cmake_vendor_package
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.9.3 (2026-10-22)
-------------------
-* ament_vendor: Add AMENT_VENDOR_POLICY CMake option (`#592 <https://github.com/ament/ament_cmake//issues/592>`_)
-* ament_cmake_vendor_package: forward compiler launchers (`#642 <https://github.com/ament/ament_cmake//issues/642>`_)
-* Use the SPDX identifier Apache-2.0 in package.xml license tags (`#634 <https://github.com/ament/ament_cmake//issues/634>`_)
-* Contributors: Michael Carroll, Silvio Traversaro
-
-2.9.2 (2026-09-03)
+2.8.9 (2026-10-22)
 ------------------
 
-2.9.1 (2026-07-02)
-------------------
-
-2.9.0 (2026-05-05)
+2.8.8 (2026-07-28)
 ------------------
 
 2.8.7 (2026-04-08)

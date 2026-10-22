@@ -2,21 +2,13 @@
 Changelog for package ament_cmake_export_libraries
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.9.3 (2026-10-22)
-------------------
-* Use the SPDX identifier Apache-2.0 in package.xml license tags (`#634 <https://github.com/ament/ament_cmake//issues/634>`_)
-* Contributors: Michael Carroll
-
-2.9.2 (2026-09-03)
-------------------
-* Make ament_export_libraries respect CMAKE_INSTALL_LIBDIR (`#631 <https://github.com/ament/ament_cmake/issues/631>`_)
-* Contributors: Shane Loretz
-
-2.9.1 (2026-07-02)
+2.8.9 (2026-10-22)
 ------------------
 
-2.9.0 (2026-05-05)
+2.8.8 (2026-07-28)
 ------------------
+* Make ament_export_libraries respect CMAKE_INSTALL_LIBDIR (`#631 <https://github.com/ament/ament_cmake/issues/631>`_) (`#632 <https://github.com/ament/ament_cmake/issues/632>`_)
+* Contributors: mergify[bot]
 
 2.8.7 (2026-04-08)
 ------------------
