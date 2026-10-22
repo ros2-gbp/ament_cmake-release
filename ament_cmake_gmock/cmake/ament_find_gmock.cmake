@@ -22,7 +22,6 @@
 # ``GMOCK_LIBRARIES`` or ``GMOCK_MAIN_LIBRARIES``
 #
 # @public
-# @deprecated
 #
 macro(ament_find_gmock)
   set(_ARGN "${ARGN}")
@@ -30,9 +29,5 @@ macro(ament_find_gmock)
     message(FATAL_ERROR
       "ament_find_gmock() called with unused arguments: ${_ARGN}")
   endif()
-  # Not a typo. GMock is provided by GTest package
-  find_package(GTest REQUIRED)
-  set(GMOCK_FOUND ${GTest_FOUND})
-  set(GMOCK_LIBRARIES GTest::gmock GTest::gtest)
-  set(GMOCK_MAIN_LIBRARIES GTest::gmock_main)
+  _ament_cmake_gmock_find_gmock()
 endmacro()
