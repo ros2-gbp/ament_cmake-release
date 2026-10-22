@@ -1,4 +1,4 @@
-From 5f947bc636976e3bd7e0970308572f4ef865e7e0 Mon Sep 17 00:00:00 2001
+From f12d887c022b2eafe49b41eef890380fe16b04eb Mon Sep 17 00:00:00 2001
 From: Scott K Logan <logans@cottsay.net>
 Date: Thu, 12 Dec 2024 14:29:24 -0600
 Subject: [PATCH 2/2] Detect Python 3 version at build time
