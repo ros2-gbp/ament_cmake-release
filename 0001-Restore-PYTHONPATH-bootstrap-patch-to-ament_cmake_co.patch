@@ -1,4 +1,4 @@
-From d4b337e0ad1d14b9ace5899db4d02634e69c770b Mon Sep 17 00:00:00 2001
+From ace7ba0336ffa5b34926997c3926489901bc0db4 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Steven!=20Ragnar=C3=B6k?=
  <nuclearsandwich@users.noreply.github.com>
 Date: Thu, 10 Feb 2022 15:07:13 -0500
@@ -28,5 +28,5 @@ index a856369d1..e4a37146d 100755
  	dh $@@ -v --buildsystem=cmake --builddirectory=.obj-$(DEB_HOST_GNU_TYPE)
  
 -- 
-2.43.0
+2.53.0
 
